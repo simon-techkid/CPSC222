@@ -1,1 +1,1 @@
-# CPSC222
+Contains example code for CPSC 222
