@@ -1,31 +1,27 @@
 '''
 Demonstrates:
-1. Sets and set oprations 
-2. Printing in two ways
+1. lst comprehension 
+2. for item in construction 
 '''
 
+import random
 
-def do_stuff():
-    fruits = {'apple', 'bannana', 'cherry'}
-    moreF = {'bannana', 'orange', 'kiwi'}
-    return fruits, moreF
+def do_stuff(size):
+   lst = [random.randint(0,size) for i in range(size)]
+   return lst
 
-def operations(fruits,moreF):
-    print("Union:", fruits | moreF)
-    print("Intesection:", fruits & moreF)
-    print("Difference;", fruits - moreF) 
+def is_even(item):
+   if (not item % 2):
+    return item
+
 
 def main():
-   fruits, moreF = do_stuff()
-   fruits.add('lemon')
-   print("Fruits: " + str(fruits))
-   print("Other Fruits: " + str(moreF))
+   howMany = 100
+   lst = do_stuff(howMany)
 
-   operations(fruits,moreF)
+   even_lst = [num for num in lst if is_even(num)]
+   print(even_lst) 
 
-   print('apple' in fruits)
-   fruits.discard('apple')
-   print('apple' in fruits)
 
 if __name__ == "__main__":
    main()

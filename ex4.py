@@ -1,6 +1,6 @@
 '''
 Demonstrates:
-1. random integers 
+1. pseudo-random integers 
 2. Conditional statements 
 '''
 
