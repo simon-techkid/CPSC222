@@ -1,7 +1,8 @@
 '''
 Demonstrates: 
-1. Using a dictionary
-2. sorted a dictionary using a library
+1. Command line arguments
+2. Using a dictionary
+3. sorting a dictionary using a library
 '''
 
 import sys
@@ -18,13 +19,11 @@ def do_stuff(howMany,limit):
          count_dict[num] = count_dict[num] + 1
       else:
          count_dict[num] = 1
-   #sort the items by the number of times they occur, with highest occurence on topls
+
+   #sort the items by the number of times they occur, with highest occurence on top
    sorted_lst = sorted(count_dict.items(), key = itemgetter(1), reverse = True)
    return sorted_lst
-   
     
-   
-
 def main():
    howMany = int(sys.argv[1])
    limit = int(sys.argv[2])
@@ -37,5 +36,4 @@ def main():
       
 if __name__ == "__main__":
    main()
-    
     

@@ -1,15 +1,10 @@
 '''
 Demonstrates: 
-1. command line arguments
-2. a dictionary
+1. a dictionary
 '''
 
-import sys
 
-def do_stuff(howMany,limit):
-   print(howMany)
-   print(limit)
-   
+def do_stuff():
    dict = {}
    dict[0] = "Paul"
    dict[1] = "Heidi"
@@ -26,10 +21,7 @@ def do_stuff(howMany,limit):
    return dict
 
 def main():
-   howMany = sys.argv[1]
-   limit = sys.argv[2]
-    
-   dict = do_stuff(howMany, limit)
+   dict = do_stuff()
    for item in dict.items():
       print(f"{item[0]}: {item[1]}")  #f says to evaluate expression in this string
 	
