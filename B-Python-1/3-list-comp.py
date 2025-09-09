@@ -1,6 +1,6 @@
 '''
 Demonstrates:
-1. List Comprehension 
+List Comprehension 
 '''
 
 def do_stuff(size):

@@ -2,7 +2,7 @@
 Demonstrates:
 1. Structure of a Python program
 2. variables
-3. a for loop
+3. for loop
 4. printing to console 
 5. type casting
 6. console input

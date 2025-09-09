@@ -1,6 +1,6 @@
 '''
 Demonstrates: 
-1. a dictionary
+dictionary
 '''
 
 

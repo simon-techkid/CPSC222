@@ -1,5 +1,5 @@
 '''
-Demonstrates:  file i/o
+Demonstrates:  character file i/o, command line arguments
 '''
 import sys 
 

@@ -1,6 +1,6 @@
 '''
 Demonstrates:
-1. List (done the non-pythonic way) 
+List (done the non-pythonic way) 
 '''
 
 def do_stuff(times):
