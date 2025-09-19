@@ -34,6 +34,5 @@ def main():
     text = file_read(fin) 
     file_write(fout,text)
 
-
 if __name__ == "__main__":
   main()     
