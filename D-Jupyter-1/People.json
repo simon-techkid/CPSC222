@@ -1,0 +1,24 @@
+{
+    "alice": {
+        "age": 30,
+        "likes": [
+            "reading",
+            "hiking",
+            "cooking"
+        ]
+    },
+    "bob": {
+        "age": 25,
+        "likes": [
+            "knitting",
+            "cycling"
+        ]
+    },
+    "charlie": {
+        "age": 35,
+        "likes": [
+            "photography",
+            "martial arts"
+        ]
+    }
+}
