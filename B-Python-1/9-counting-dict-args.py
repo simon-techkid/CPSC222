@@ -1,4 +1,4 @@
-'''
+5'''
 Demonstrates: 
 1. Command line arguments
 2. Using a dictionary
