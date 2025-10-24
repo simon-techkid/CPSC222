@@ -1,0 +1,68 @@
+Boston Housing Dataset — Variable Descriptions
+==============================================
+
+Note: Original dataset column names are shown first; friendly names are in
+parentheses. For example, 'crim (CrimeRate)'.
+
+• crim (CrimeRate)
+Per capita crime rate by town.
+
+• zn (ResidentialLandZone)
+Proportion of residential land zoned for lots over 25,000 sq. ft.
+
+• indus (IndustrialLandPercent)
+Proportion of non-retail business acres per town.
+
+• chas (CharlesRiverDummy)
+Equals 1 if tract bounds the Charles River; 0 otherwise.
+
+• nox (NitricOxideConcentration)
+Nitric oxides concentration (parts per 10 million).
+
+• rm (Rooms)
+Average number of rooms per dwelling.
+
+• age (OldUnitsPercent)
+Proportion of owner-occupied units built before 1940.
+
+• dis (DistanceEmploymentCenters)
+Weighted distance to five Boston employment centers.
+
+• rad (HighwayAccessIndex)
+Index of accessibility to radial highways.
+
+• tax (PropertyTaxRate)
+Full-value property tax rate per $10,000.
+
+• ptratio (PupilTeacherRatio)
+Pupil-teacher ratio by town.
+
+• black (BlackProportion)
+The numbers appearing here seem to have been been transformed by a non-linear function.
+It might be interesting to look at the original paper, cited below, to see how econometric
+researchers in the late seventies interpreted so-called racial data.   Such an 
+investigation, though important, is outside the scope of this course.  It is also 
+interesting to note that the paper has been widely cited over years in books and papers 
+on machine learning and data-driven engineering. 
+
+• lstat (LowerStatusPercent)
+Percentage of population with lower socioeconomic status.
+
+• medv (MedianValue)
+Median value of owner-occupied homes in $1000s.
+
+Short Description and Reference
+================================
+The Boston Housing dataset contains information collected by the U.S. Census
+Service about housing in the Boston metropolitan area during the 1970s. It
+records demographic, economic, and environmental factors for 506 census
+tracts, and is commonly used to demonstrate regression modeling and
+feature relationships in statistics and machine learning.
+
+References:
+Harrison, D., & Rubinfeld, D. L. (1978). Hedonic housing prices and the
+demand for clean air. Journal of Environmental Economics and Management,
+5(1), 81–102. https://doi.org/10.1016/0095-0696(78)90006-2
+
+Some of the explanatory materials were developed in collaboration with ChatGPT, 
+powered by OpenAI’s GPT-5 model.  (2025 release).
